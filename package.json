@@ -1,7 +1,16 @@
 {
   "name": "aneeqkhurram007",
   "version": "1.0.0",
+  "description": "Introduction to Aneeq's world",
   "bin": {
     "aneeqkhurram007": "index.js"
-  }
+  },
+  "dependencies": {
+    "cli-welcome": "^2.2.2"
+  },
+  "type": "module",
+  "keywords": [
+    "aneeq",
+    "aneeqkhurram007"
+  ]
 }

@@ -1,4 +1,14 @@
 #!/usr/bin/env node
+import welcome from "cli-welcome";
+import { name, version, description } from "./package.json";
+welcome({
+  title: name,
+  tagLine: "Mr. React",
+  description: description,
+  version: version,
+  clear: true,
+  bold: true,
+});
 console.log(`
 
 Aneeq Khurram
