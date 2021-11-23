@@ -1,12 +1,14 @@
 #!/usr/bin/env node
-import welcome from "cli-welcome";
-import { name, version, description } from "./package.json";
+const welcome = require("cli-welcome");
+const { name, version, description } = require("./package.json");
 welcome({
   title: name,
   tagLine: "Mr. React",
   description: description,
   version: version,
   clear: true,
+  bgColor: "FADC00",
+  color: "FFF",
   bold: true,
 });
 console.log(`
