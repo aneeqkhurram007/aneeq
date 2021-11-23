@@ -11,5 +11,15 @@
   "keywords": [
     "aneeq",
     "aneeqkhurram007"
-  ]
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "aneeqkhurram007/aneeq"
+  },
+  "author": {
+    "name": "Aneeq Khurram",
+    "email": "aneeqkhurram007@yahoo.com",
+    "url": "https://github.com/aneeqkhurram007"
+  },
+  "main": "index.js"
 }
