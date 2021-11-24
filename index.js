@@ -2,6 +2,6 @@
 const welcome = require("./utils/init");
 const { bio } = require("./utils/data");
 const { socials } = require("./utils/data");
-console.log(welcome);
+welcome();
 console.log(bio);
 console.log(socials);
