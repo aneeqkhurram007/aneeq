@@ -14,7 +14,8 @@
     "aneeqkhurram007"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "utils"
   ],
   "license": "MIT",
   "repository": {
