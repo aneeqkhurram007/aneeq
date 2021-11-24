@@ -1,5 +1,5 @@
 {
-  "name": "aneeqkhurram",
+  "name": "aneeqkhurram007",
   "version": "1.2.0",
   "description": "Introduction to Aneeq's world",
   "bin": {
@@ -13,14 +13,23 @@
     "aneeq",
     "aneeqkhurram007"
   ],
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "repository": {
     "url": "aneeqkhurram007/aneeq"
   },
+  "readme": "README.md",
   "author": {
     "name": "Aneeq Khurram",
     "email": "aneeqkhurram007@yahoo.com",
     "url": "https://github.com/aneeqkhurram007"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test.js",
+    "start": "./index.js"
+  }
 }
