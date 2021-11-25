@@ -1,6 +1,8 @@
-const welcome = require(`cli-welcome`);
-const { version, description } = require(`../package.json`);
-const chalk = require(`chalk`);
+const welcome = require("cli-welcome");
+const packageJson = require("../package.json");
+const chalk = require("chalk");
+const { description, version } = packageJson;
+
 const init = () =>
   welcome({
     title: `${chalk.hex(`#FADC00`)(` Aneeq Khurram `)}`,

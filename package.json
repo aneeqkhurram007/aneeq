@@ -7,15 +7,12 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "cli-welcome": "^2.2.2"
+    "cli-welcome": "^2.2.2",
+    "meow": "^9.0.0"
   },
   "keywords": [
     "aneeq",
     "aneeqkhurram007"
-  ],
-  "files": [
-    "index.js",
-    "utils"
   ],
   "license": "MIT",
   "repository": {

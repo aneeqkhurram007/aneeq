@@ -1,5 +1,4 @@
-const chalk = require(`chalk`);
-
+const chalk = require("chalk");
 const bio = `${chalk.green
   .italic(`Self-learned and creative React developer having experience of more than a year in Node JS, 
   MERN, and NodeCLI automation.`)}`;
